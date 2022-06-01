@@ -41,7 +41,7 @@ namespace TESTINGC
                         Console.WriteLine("Invalid input");
                         break;
                 }
-                Console.WriteLine("Do you want to do another operation? (y=yes,anycharacter=no)");
+                Console.WriteLine("Do u want to do another operation? (y=yes,anycharacter=no)");
                 GoAhead=char.Parse(Console.ReadLine());
 
             }
