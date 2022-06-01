@@ -17,7 +17,7 @@ namespace TESTINGC
         {
          
             AMS sql1 = new AMS();
-            sql1.ConnectSql(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            sql1.ConnectSql(@"YOUR DATABASE");
             char GoAhead = 'y';
             while (GoAhead=='y')
             {
